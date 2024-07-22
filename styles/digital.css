@@ -1,0 +1,23 @@
+body { 
+    background-image:url(/assets/Screenshot\ 2024-07-22\ at\ 22.16.40.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin : 0 
+    
+
+}
+#clock-container { 
+    display : flex ; 
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+
+}
+#clock, #date {
+    font-size: em;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+}
