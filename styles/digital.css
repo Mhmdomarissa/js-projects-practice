@@ -14,7 +14,7 @@ body {
 
 }
 #clock, #date {
-    font-size: em;
+    font-size: 2em;
     color: rgb(255, 255, 255);
     backdrop-filter: blur(5px);
     text-align: center;
